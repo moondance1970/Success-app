@@ -13,6 +13,8 @@ import { IonContent,
 		 IonIcon, 
 		 IonList} from '@ionic/react';
 import React from 'react';
+import { RouteComponentProps } from 'react-router';
+import { add } from 'ionicons/icons';
 
 const Home: React.FC<RouteComponentProps> = (props) => {
   return (
